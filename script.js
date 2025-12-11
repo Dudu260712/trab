@@ -95,3 +95,9 @@ document.addEventListener('DOMContentLoaded', () => {
   // impedir fechamento ao clicar dentro do painel
   dropdownContent.addEventListener('click', (e) => e.stopPropagation());
 });
+
+document.querySelectorAll(".heart").forEach(heart => {
+    heart.addEventListener("click", () => {
+        heart.classList.toggle("active");
+    });
+});

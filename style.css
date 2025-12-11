@@ -16,6 +16,8 @@ body {
   border-bottom: 1px solid #ffffff;
     border: 2px solid black;
     justify-content: space-between;
+     width: 1850px;
+    
 }
 
 
@@ -311,10 +313,5 @@ body {
 .coracao{
    height: 20px;
   width: 20px;
-  display: flex;
 }
-.coracao:hover{
-  background-color: red;
-  color: red;
-  border-color: red;
-}
+

@@ -11,6 +11,8 @@ body {
 
 }
 
+
+
 .tag-desconto {
     position: absolute;
     top: 10px;
@@ -21,7 +23,16 @@ body {
     font-size: 12px;
     border-radius: 5px;
 }
-
+.tag-pix {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #e60000;
+    color: white;
+    padding: 5px 8px;
+    font-size: 12px;
+    border-radius: 5px;
+}
 
 
 .titulo {
@@ -29,7 +40,13 @@ body {
     margin: 10px 0;
     font-weight: bold;
 }
+.esgotado {
+    color: #e60000;
+     font-size: 10px;
+text-align: center;
 
+
+}
 .preco-antigo {
     text-decoration: line-through;
     color: #ff0000;
@@ -39,8 +56,8 @@ body {
     font-size: 22px;
     color: #009900;
     font-weight: bold;
-}
 
+}
 
 a {
     color: black;
@@ -55,190 +72,15 @@ a:hover{
  border-bottom: 2px solid black;
 
 }
-.card1 {
-    width: 260px;
-    background: #ffffff;
-    padding: 15px;
-    border-radius: 20px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
-    position: relative;
-    margin-top: 150px;
-    border: 3px solid black;
-    margin-left: 50px;
-}
-.card2 {
-  width: 260px;
-    background: #ffffff;
-    padding: 15px;
-    border-radius: 20px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
-    position: relative;
-    margin-left:400px;
-    margin-top: -530px;
-    border: 3px solid black;
-}
-.card3 {
-    width: 260px;
-    background: #ffffff;
-    padding: 15px;
-    border-radius: 20px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
-    position: relative;
-    margin-left:750px;
-    margin-top: -535px;
-    border: 3px solid black;
-}
-.card4 {
-    width: 260px;
-    background: #ffffff;
-    padding: 15px;
-    border-radius: 20px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
-    position: relative;
-    margin-left:1100px;
-    margin-top: -530px;
-    border: 3px solid black;
-}
-.card5 {
-    width: 260px;
-    background: #ffffff;
-    padding: 15px;
-    border-radius: 20px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
-    position: relative;
-    margin-left:1450px;
-    margin-top: -535px;
-    border: 3px solid black;
-}
-.card6 {
-    width: 260px;
-    background: #ffffff;
-    padding: 15px;
-    border-radius: 20px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
-    position: relative;
-    margin-left:50px;
-    margin-top: 50px;
-    border: 3px solid black;
-}
-.card7 {
-    width: 260px;
-    background: #ffffff;
-    padding: 15px;
-    border-radius: 20px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
-    position: relative;
-    margin-left:400px;
-    margin-top: -530px;
-    border: 3px solid black;
-}
-.card8 {
-    width: 260px;
-    background: #ffffff;
-    padding: 15px;
-    border-radius: 20px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
-    position: relative;
-    margin-left:750px;
-    margin-top: -535px;
-    border: 3px solid black;
-}
-.card9 {
-    width: 260px;
-    background: #ffffff;
-    padding: 15px;
-    border-radius: 20px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
-    position: relative;
-    margin-left:1100px;
-    margin-top: -535px;
-    border: 3px solid black;
-}
-.card10 {
-    width: 260px;
-    background: #ffffff;
-    padding: 15px;
-    border-radius: 20px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
-    position: relative;
-    margin-left:1450px;
-    margin-top: -530px;
-    border: 3px solid black;
-}
-.compre{
-background-color: #009900;
-height: 60px;
-border-radius: 15px;
-border: 2.9px solid black;
-text-align: center;
-align-items: center;
-justify-content: center;
-display: flex;
-font-size: 19px;
 
-}
-a {
-
-    color: rgb(32, 32, 32);
-    text-decoration: none;
-    padding: 8px;
-    border-bottom: 1.5px solid transparent;
-   
-
-}
-a:hover {
-
-      border-bottom: 1.5px solid black;
-}
-.logo {
-    height: 35px;
-}
-.foto{
-height: 40px;
- border-radius: 50px;
-
-}
-.nome:hover {
-        text-decoration: underline;
-}
-h1 {
- text-align: center;
-}
-h2 {
-    margin-left: 50px;
-    font-size: 20px;
-    text-align: justify;
-    margin-right: 50px;
-}
-.ft{
-padding: 30px;
-   margin-left: auto;
-    margin-right: auto;
-   display: block;
-    border-radius: 130px;
-    border: 4px solid black;
-}
-.cv {
-
-  height: 20px;
-  width: 20px;
-
-}
-.grupo {
-  gap: 20px;
-  display: flex;
-  align-items: center;
-}
-input {
-  width: 30%;
-}
-h1{
-  font-size: 25px;
-  text-align: center;
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-
-
+/* ============================ */
+/*           TOPBAR             */
+/* ============================ */
 
 .topbar {
   display: flex;
@@ -249,8 +91,10 @@ h1{
   border-bottom: 1px solid #ffffff;
     border: 2px solid black;
     justify-content: space-between;
-      width: 1850px;
+    width: 1850px;
 }
+
+
 .topbar button {
   font-size: 22px;
   padding: 6px 12px;
@@ -363,6 +207,187 @@ h1{
 .submenu div:hover {
   background: #ffffff;
 }
+a {
+
+    color: rgb(32, 32, 32);
+    text-decoration: none;
+    padding: 8px;
+    border-bottom: 1.5px solid transparent;
+   
+
+}
+a:hover {
+
+      border-bottom: 1.5px solid black;
+}
+.logo {
+    height: 35px;
+}
+.foto{
+height: 40px;
+ border-radius: 50px;
+
+}
+.nome:hover {
+        text-decoration: underline;
+}
+.ft{
+padding: 30px;
+   margin-left: auto;
+    margin-right: auto;
+   display: block;
+    border-radius: 130px;
+    border: 4px solid black;
+}
+.cv {
+
+  height: 20px;
+  width: 20px;
+  display: flex;
+
+}
+.grupo {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.coracao{
+   height: 20px;
+  width: 20px;
+  display: flex;
+}
+.coracao:hover{
+  background-color: red;
+  color: red;
+  border-color: red;
+}
+.compre{
+background-color: #009900;
+height: 60px;
+border-radius: 15px;
+border: 2.9px solid black;
+text-align: center;
+align-items: center;
+justify-content: center;
+display: flex;
+font-size: 19px;
+}
+.A1 {
+    width: 260px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    position: relative;
+    margin-top: 150px;
+    border: 3px solid black;
+    margin-left: 50px;
+}
+.A2 {
+    width: 260px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    position: relative;
+    margin-top: -530px;
+    border: 3px solid black;
+    margin-left: 400px;
+}
+.A3 {
+    width: 260px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    position: relative;
+    margin-top: -530px;
+    border: 3px solid black;
+    margin-left: 750px;
+}
+.A4 {
+    width: 260px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    position: relative;
+    margin-top: -530px;
+    border: 3px solid black;
+    margin-left: 1100px;
+
+
+
+}
+.A5 {
+    width: 260px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    position: relative;
+    margin-top: -530px;
+    border: 3px solid black;
+    margin-left: 1450px;
+}
+.A6 {
+    width: 260px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    position: relative;
+    margin-top: 50px;
+    border: 3px solid black;
+    margin-left: 50px;
+}
+.A7 {
+    width: 260px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    position: relative;
+    margin-top: -530px;
+    border: 3px solid black;
+    margin-left: 400px;
+}
+.A8 {
+    width: 260px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    position: relative;
+    margin-top: -530px;
+    border: 3px solid black;
+    margin-left: 750px;
+}
+.A9 {
+    width: 260px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    position: relative;
+    margin-top: -530px;
+    border: 3px solid black;
+    margin-left: 1100px;
+}
+.A10 {
+    width: 260px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    position: relative;
+    margin-top: -540px;
+    border: 3px solid black;
+    margin-left: 1450px;
+}
+
+
 /* Coração começa invisível */
 .heart{
   width: 30px;
@@ -386,53 +411,53 @@ h1{
   transition: .2s;
 }
 /* Aparece quando passa o mouse no A1 */
-.card1:hover .heart {
+.A1:hover .heart {
   opacity: 1;
   pointer-events: auto;
 }
 /* Aparece quando passa o mouse no A2 */
-.card2:hover .heart {
+.RA2:hover .heart {
   opacity: 1;
   pointer-events: auto;
 }
 
 /* Aparece quando passa o mouse no A3 */
-.card3:hover .heart {
+.A3:hover .heart {
   opacity: 1;
   pointer-events: auto;
 }
 /* Aparece quando passa o mouse no A4 */
-.card4:hover .heart {
+.A4:hover .heart {
   opacity: 1;
   pointer-events: auto;
 }
 /* Aparece quando passa o mouse no A5 */
-.card5:hover .heart {
+.A5:hover .heart {
   opacity: 1;
   pointer-events: auto;
 }
 /* Aparece quando passa o mouse no A6 */
-.card6:hover .heart {
+.A6:hover .heart {
   opacity: 1;
   pointer-events: auto;
 }
 /* Aparece quando passa o mouse no A7 */
-.card7:hover .heart {
+.A7:hover .heart {
   opacity: 1;
   pointer-events: auto;
 }
 /* Aparece quando passa o mouse no A8 */
-.card8:hover .heart {
+.A8:hover .heart {
   opacity: 1;
   pointer-events: auto;
 }
 /* Aparece quando passa o mouse no A9 */
-.card9:hover .heart {
+.A9:hover .heart {
   opacity: 1;
   pointer-events: auto;
 }
 /* Aparece quando passa o mouse no A10 */
-.card10:hover .heart {
+.A10:hover .heart {
   opacity: 1;
   pointer-events: auto;
 }
@@ -441,10 +466,4 @@ h1{
 .heart.active {
   background-image: url("https://cdn-icons-png.flaticon.com/512/833/833472.png");
 }
-.esgotado {
-    color: #e60000;
-     font-size: 10px;
-text-align: center;
 
-
-}
